@@ -2,7 +2,7 @@
 ###Associations Code Challenge
 
 
-This challenge is to access your ability to write concise and meaningful data relationships using Rails ActiveRecord. Model structure is the focus of this exercise, so views and controllers are not required. Example outputs are at the bottom.
+This challenge is to assess your ability to write concise and meaningful data relationships using Rails ActiveRecord. Model structure is the focus of this exercise, so views and controllers are not required. Example outputs are at the bottom.
 
 ___
 
