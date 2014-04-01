@@ -42,7 +42,7 @@ ___
 
 ####EXAMPLE OUTPUTS
 
-retreive customers orders
+retreive customer's orders
 
 ```ruby
 
