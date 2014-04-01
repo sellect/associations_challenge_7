@@ -37,12 +37,12 @@ ___
 
 ######TASK #3
 
-**Design your model associations to retreive a customer's notes ( which includes notes associated with the customer and the notes associated with the customer's orders )**
+**Design your model associations to retrieve a customer's notes ( which includes notes associated with the customer and the notes associated with the customer's orders )**
 
 
 ####EXAMPLE OUTPUTS
 
-retreive customer's orders
+retrieve customer's orders
 
 ```ruby
 
@@ -53,7 +53,7 @@ customer.orders
 
 ```
 
-retreive customer's notes
+retrieve customer's notes
 
 ```ruby
 
@@ -64,7 +64,7 @@ customer.notes
 
 ```
 
-retreive order's notes
+retrieve order's notes
 
 ```ruby
 
