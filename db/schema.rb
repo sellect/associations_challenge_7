@@ -33,7 +33,8 @@ ActiveRecord::Schema.define(version: 20151208003510) do
   create_table "orders", force: true do |t|
     t.string   "track_letter"
     t.integer  "track_num"
-    t.integer  "customer_id",  null: false
+    t.string   "unique_tracker"
+    t.integer  "customer_id",    null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
