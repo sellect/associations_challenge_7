@@ -1,0 +1,29 @@
+<ul>
+  <% @customers.each do |customer| %>
+  <li>
+    <span>
+      Customer's email: <%= customer.email %><br>
+
+    </span><br>
+    <span>
+      Your tracking numbers:
+      <% customer.orders.each do |order|%>
+        <span><br>
+          <%=order.unique_tracker%><br>
+          ID# <%= order.id %>
+        </span><br>
+        <%order.notes.each do |note|%>
+          <span>
+            Notes for this order:
+            <%= note.message %>
+          </span><br>
+        <% end %>
+      <% end %>
+    </span>
+  </li><br>
+ <% end %>
+</ul>
+
+<a href="/customers/new">Click here to create an account</a><br>
+<a href="/orders/new">Click here to make an order</a><br>
+<a href="/notes/new">Click here add a note to your order</a>
