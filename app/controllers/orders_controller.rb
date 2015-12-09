@@ -19,7 +19,7 @@ class OrdersController < ApplicationController
 
     respond_to do |format|
       if @order.save
-        format.html { redirect_to '/orders', notice: 'Order was successfully created.' }
+        format.html { redirect_to '/customers', notice: 'Order was successfully created.' }
       end
     end
   end

@@ -1,0 +1,9 @@
+<ul>
+  <% @notes.each do |note| %>
+  <li>
+    <%= note.message %><br>
+    <%= note.order.id %>
+
+  </li>
+ <% end %>
+</ul>

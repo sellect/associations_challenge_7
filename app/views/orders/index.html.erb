@@ -1,7 +1,8 @@
 <ul>
   <% @orders.each do |order| %>
-  <li><%= order.track_letter %> <%= order.track_num %>
-    <p> tracking number: <%= order.unique_tracker %>  </p>
+  <li>
+    <span>Customer's email: <%=order.customer.email %></span><br>
+    <span> Your tracking number: <%= order.unique_tracker %></span>
   </li>
  <% end %>
 </ul>
